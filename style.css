@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background-image: url(images/wallpapersden.com_alienware-4k_2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(1, 0, 8);
+    background-size: cover;
+    /* background-image: url(images/papers.co-sm45-purple-dark-blur-gradation-3840x2160.jpg); */
+    font-family: 'Zen Dots';
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    margin: 0;
+    padding-right: 174px;
+    padding-top: 40px;
+}
+.logo{
+    margin-right: auto;
+    margin-top: -15px;
+    padding-left: 110px;
+}
+li{
+    padding: 10px;
+}
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+/*COVER*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.container h1{
+    display: flex;
+    color: #f5f5f5;
+    width: 487px;
+    height: 180px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 60px;
+    margin-left: 110px;
+}
+.container .coverimg{
+    margin-right: 150px;
+    margin-top: 80px;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+}
+.cover2{
+    display: none;
+}
+.cover3{
+    display: none;
+}
+.ninjaphoto{
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.warwera{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 23px;
+    color: #858585;
+    width: 358px;
+    height: 46px;
+    margin-left: 110px;
+    margin-top: -200px;
+}
+.btn button {
+    display: flex;
+    width: 182px;
+    height: 51px;
+    border-radius: 43px;
+    background: none;
+    margin-top: 35px;
+    margin-left: 110px;
+    background: linear-gradient(272.46deg, #FFA41B -2.15%, #DF1BFF 50.59%, #1F1BFF 104.45%);
+    border: none;
+}
+.btn button a{
+    display: flex;
+    font-family: 'Zen Dots';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+.btn button1{
+    display: flex;
+    margin-left: 330px;
+    background: none;
+    margin-top: -37px;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 203px;
+    background: linear-gradient(272.46deg, #FFA41B -2.15%, #DF1BFF 50.59%, #1F1BFF 104.45%);
+    margin-top: 200px;
+}
+.container4{
+    display: none;
+}
+.footer .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.container2 h1{
+    display: flex;
+    width: 700px;
+    height: 96px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 32px;
+    text-align: right;
+    background: linear-gradient(92.39deg, #1F1BFF 9.77%, #DF1BFF 52%, #FFA41B 102.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-right: 70px;
+}
+.warwera1 h2{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 1000px;
+    height: 102px;
+    float: right;
+    margin-right: 70px;
+    margin-top: -175px;
+}
+.coverimg1{
+    margin-left: 800px;
+}
+.coverimg2{
+    display: none;
+}
+.coverimg3{
+    display: none;
+}
+.btn1 button1{
+    display: flex;
+    float: right;
+    margin-right: 270px;
+    margin-top: -40px;
+}
+.btn1 button{
+    display: flex;
+    float: right;
+    width: 148px;
+    height: 51px;
+    margin-right: 70px;
+    margin-top: -60px;
+    border-radius: 43px;
+    background: none;
+    background: linear-gradient(272.46deg, #FFA41B -2.15%, #DF1BFF 50.59%, #1F1BFF 104.45%);
+    border: none;
+}
+.btn1 button a{
+    display: flex;
+    font-family: 'Zen Dots';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    margin-left: 32px;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+.footer .head{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 70px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    color: #f5f5f5;
+    margin-top: -390px;
+}
+@media only screen and (max-width: 1250px){
+    .container h1{
+        font-size: 40px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 1090px){
+    .container h1{
+        font-size: 30px;
+        width: 400px;
+    }
+    .warwera h2{
+        font-size: 10px;
+        width: 250px;
+    }
+    .btn button{
+        width: 130px;
+    }
+    .btn button a{
+        font-size: 10px;
+        width: 100px;
+        margin-left: 20px;
+    }
+    .btn button1{
+        width: 130px;
+        font-size: 12px;
+        margin-left: 270px;
+    }
+    .warwera1 h2{
+        font-size: 10px;
+        width: 300px;
+        height: 70px;
+    }
+    .head h1{
+        font-size: 25px;
+    }
+    .btn1 button{
+        width: 130px;
+    }
+    .btn1 button a{
+        font-size: 12px;
+        width: 100px;
+    }
+    .btn1 button1{
+        font-size: 12px;
+        width: 150px;
+        margin-right: 200px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .bx.bx-menu{
+        margin-top: 30px;
+    }
+    #menu-icon{
+        display: block;
+        color: #f5f5f5;
+        margin-left: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    nav .main-nav.active{
+        left: 0px;
+    }
+    .main-nav a{
+        padding: 1.5rem;
+        display: block;
+    }
+    .main-nav{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: -300px;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #0d1631;
+        transition: .3s;
+        height: 1000px;
+        width: 70px;
+    }
+    .logo{
+        margin-left: -100px;
+    }
+    .cover1{
+        display: none;
+    }
+    .cover2{
+        display: flex;
+    }
+    .container h1{
+        font-size: 12px;
+    }
+    .warwera h2{
+        font-size: 9px;
+        margin-top: -120px;
+    }
+    .btn button{
+        margin-top: -100px;
+    }
+    .footer .container2 h1{
+        font-size: 12px;
+        height: 100px;
+        width: 400px;
+        margin-top: -70px;
+    }
+    .footer .warwera1 h2{
+        font-size: 9px;
+    }
+    .coverimg1{
+        display: none;
+    }
+    .coverimg2{
+        display: flex;
+        margin-top: 0px;
+    }
+    .head h1{
+        font-size: 20px;
+        margin-top: 80px;
+    }
+    .footer button{
+        margin-top: -80px;
+    }
+    .footer button1{
+        margin-top: -55px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .logo{
+        margin-left: -100px;
+    }
+    .cover2{
+        display: none;
+    }
+    .cover3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .container h1{
+        display: flex;
+        margin-top: -300px;
+        margin-left: 40px;
+        font-size: 10px;
+        width: 60px;
+        height: 100px;
+    }
+    .warwera h2{
+        font-size: 10px;
+        margin-top: -52px;
+        width: 250px;
+        color: #FFFFFF;
+
+    }
+    .btn button{
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 150px;
+    }
+    .btn button a{
+        margin-left: 30px;
+    }
+    .btn button1{
+        font-size: 15px;
+        margin-top: -30px;
+        margin-left: 210px;
+        width: 150px;
+    }
+    .container1{
+        width: auto;
+        height: 100px;
+        margin-top: 60px;
+        display: none;
+    }
+    .coverimg2{
+        display: none;
+    }
+    .coverimg3{
+        display: block;
+    }
+    .footer .container2 h1{
+        margin-right: 35px;
+        margin-top: 10px;
+    }
+    .head h1{
+        margin-top: 120px;
+        margin-right: -35px;
+    }
+    .footer .warwera1{
+        margin-top: 230px;
+        margin-right: -35px;
+    }
+    .footer button{
+        margin-top: -80px;
+        margin-right: 35px;
+    }
+    .footer button1{
+        margin-right: 160px;
+    }
+    .container4{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background: linear-gradient(272.46deg, #FFA41B -2.15%, #DF1BFF 50.59%, #1F1BFF 104.45%);
+        margin-top: 60px;
+    }
+}
