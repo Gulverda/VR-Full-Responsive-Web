@@ -421,4 +421,10 @@ a{
     .cover2{
         overflow-x: hidden;
     }
+    .cover1{
+        display: none;
+    }
+    .cover2{
+        display: none;
+    }
 }
