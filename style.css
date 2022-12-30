@@ -415,6 +415,10 @@ a{
         background: linear-gradient(272.46deg, #FFA41B -2.15%, #DF1BFF 50.59%, #1F1BFF 104.45%);
         margin-top: 60px;
     }
-    .coverimg{
+    .cover1{
         overflow-x: hidden;
+    }
+    .cover2{
+        overflow-x: hidden;
+    }
 }
