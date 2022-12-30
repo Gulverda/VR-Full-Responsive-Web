@@ -423,8 +423,12 @@ a{
     }
     .cover1{
         display: none;
+        width: 10px;
+        height: 10px;
     }
     .cover2{
         display: none;
+        width: 10px;
+        height: 10px;
     }
 }
